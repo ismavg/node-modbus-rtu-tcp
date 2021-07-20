@@ -1,5 +1,5 @@
 {
-  "name": "modbus-rtu",
+  "name": "modbus-rtu-tcp",
   "version": "0.2.1",
   "scripts": {
     "build": "rimraf lib && babel src --out-dir lib",
@@ -8,24 +8,24 @@
     "ci": "npm run lint && npm run test",
     "prepublishOnly": "npm run build"
   },
-  "description": "modbus-rtu implementation for node.js",
+  "description": "modbus-rtu-tcp implementation for node.js",
   "keywords": [
     "modbus-rtu",
     "modbus",
     "modbus master"
   ],
   "main": "lib/index.js",
-  "homepage": "https://github.com/thekip/node-modbus-rtu",
+  "homepage": "https://github.com/ismavg/node-modbus-rtu-tcp",
   "repository": {
     "type": "git",
-    "url": "git@github.com:thekip/node-modbus-rtu.git"
+    "url": "git@github.com:ismavg/node-modbus-rtu-tcp.git"
   },
   "author": {
-    "name": "Tim Yatsenko",
-    "url": "https://github.com/thekip"
+    "name": "Vamsi Krishna",
+    "url": "https://github.com/ismavg"
   },
   "bugs": {
-    "url": "ttps://github.com/thekip/node-modbus-rtu/issues"
+    "url": "ttps://github.com/ismavg/node-modbus-rtu-tcp/issues"
   },
   "engines": {
     "node": ">=5"
